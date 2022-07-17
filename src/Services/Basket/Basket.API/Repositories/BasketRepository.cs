@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Basket.API.Repositories
 {
-    public class BasketRepository
+    public class BasketRepository : IBasketRepository
     {
         private readonly IDistributedCache _redisCache;
 
