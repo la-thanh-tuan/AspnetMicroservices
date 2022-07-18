@@ -51,3 +51,5 @@ docker rm [container_id]
 docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
 ##015 Container management with Portainer
 docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
+##004 Setup PostgreSQL Docker Database for Discount.API Microservices
+docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
