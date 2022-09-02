@@ -54,3 +54,11 @@ docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
 docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
 ##004 Setup PostgreSQL Docker Database for Discount.API Microservices
 docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
+# Chap 4
+##015 Test on Docker environment - Discount.API and PostgreSQL into Docker-Compose
+docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
+docker-compose -f docker-compose.yml -f docker-compose.override.yml down
+docker ps
+docker ps -a
+docker compose
+
