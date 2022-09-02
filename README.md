@@ -62,3 +62,7 @@ docker ps
 docker ps -a
 docker compose
 
+#Chap 5
+#005 Managing PostreSQL Database Operations in Discount Grpc
+docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
+docker ps
