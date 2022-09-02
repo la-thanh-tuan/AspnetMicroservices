@@ -17,8 +17,9 @@ AspnetMicroservices
 	show colletions
 	
 	
-docker-compose -f .\docker-compose.yml -f .\docker-compose.override.yml up -d
+
 docker-compose -f .\docker-compose.yml -f .\docker-compose.override.yml down
+docker-compose -f .\docker-compose.yml -f .\docker-compose.override.yml up -d
 
 docker stop $(docker ps -aq)
 docker rm $(docker rm -aq)
