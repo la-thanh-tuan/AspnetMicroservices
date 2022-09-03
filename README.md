@@ -63,6 +63,15 @@ docker ps -a
 docker compose
 
 #Chap 5
-#005 Managing PostreSQL Database Operations in Discount Grpc
+##005 Managing PostreSQL Database Operations in Discount Grpc
 docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
 docker ps
+
+#Chap 6
+##005 Test and Run Discount Grpc and Basket Microservice
+docker ps
+docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
+
+Set multi startup project (Basket.API, Discount.Grpc)
+Testing ...
+docker-compose -f docker-compose.yml -f docker-compose.override.yml down
