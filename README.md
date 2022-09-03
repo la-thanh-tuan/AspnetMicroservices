@@ -75,3 +75,7 @@ docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
 Set multi startup project (Basket.API, Discount.Grpc)
 Testing ...
 docker-compose -f docker-compose.yml -f docker-compose.override.yml down
+##008 Test on Docker environment - Basket.API integrate Discount.Grpc into DC
+docker-compose -f docker-compose.yml -f docker-compose.override.yml up --build
+docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
+docker-compose -f docker-compose.yml -f docker-compose.override.yml down
