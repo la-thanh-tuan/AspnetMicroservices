@@ -83,3 +83,6 @@ docker-compose -f docker-compose.yml -f docker-compose.override.yml down
 ##031 Adding SqlServer image into Docker-Compose File for Multi-Container Docker Env
 docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
 docker ps
+#Chap 8
+##005 Adding RabbitMQ image into Docker-Compose File for Multi-Container Docker Env
+docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
