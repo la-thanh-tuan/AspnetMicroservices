@@ -88,3 +88,6 @@ docker ps
 docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
 ##011 Test BasketCheckout Event in Basket.API Microservices
 docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
+##014 Test BasketCheckout Event in Basket.API and Ordering.API Microservices
+docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
+
