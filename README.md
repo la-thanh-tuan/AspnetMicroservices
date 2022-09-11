@@ -86,3 +86,5 @@ docker ps
 #Chap 8
 ##005 Adding RabbitMQ image into Docker-Compose File for Multi-Container Docker Env
 docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
+##011 Test BasketCheckout Event in Basket.API Microservices
+docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
