@@ -90,4 +90,7 @@ docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
 docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
 ##014 Test BasketCheckout Event in Basket.API and Ordering.API Microservices
 docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
+##016 Containerize Basket and Ordering Microservices w_ RabbitMQ using Docker Compose
+docker-compose -f docker-compose.yml -f docker-compose.override.yml up --build
+
 
