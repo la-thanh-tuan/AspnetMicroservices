@@ -47,6 +47,9 @@ namespace Ordering.API
                 });
             });
             services.AddMassTransitHostedService();
+            // General Configuration
+            services.AddScoped<BasketCheckoutConsumer>();
+            services.AddAutoMapper(typeof(Startup));
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
